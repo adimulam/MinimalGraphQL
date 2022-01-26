@@ -1,9 +1,10 @@
-# graphqlAppEclipseLinkMysql
+# Minimal GraphQL
 
 Java - JDK 8+\
 Framework - Dropwizard\
 DI - Guice\
-GraphQL - graphql-java
+GraphQL - graphql-java\
+DataSet - Uses in memory map.
 
 To Run:
  java -jar target/MinimalGraphQL-1.0-SNAPSHOT.jar server conf.yml
