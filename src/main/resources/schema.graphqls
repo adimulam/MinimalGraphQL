@@ -1,0 +1,27 @@
+
+type Query {
+    books: [Book]
+    book(id: ID!): Book
+}
+
+type Mutation {
+    createBook(input: BookPayload): Book
+    updateBook(input: BookPayload): Book
+    deleteBook(input: BookPayload): Int
+}
+
+input BookPayload {
+    id: ID!
+    countryOfOrigin: String
+    publisher: String
+    contact: String
+    pages: Int
+}
+
+type Book {
+    id: ID
+    countryOfOrigin: String
+    publisher: String
+    contact: String
+    pages: Int
+}
