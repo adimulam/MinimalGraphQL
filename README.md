@@ -6,6 +6,9 @@ DI - Guice\
 GraphQL - graphql-java\
 DataSet - Uses in memory map.
 
+To Build:
+ mvn clean install
+
 To Run:
  java -jar target/MinimalGraphQL-1.0-SNAPSHOT.jar server conf.yml
 
