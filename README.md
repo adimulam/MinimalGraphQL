@@ -11,6 +11,9 @@ To Build:
 
 To Run:
  java -jar target/MinimalGraphQL-1.0-SNAPSHOT.jar server conf.yml
+ 
+Access endpoint as:
+  http://localhost:9080/graphql
 
 Sample Queries:
 
